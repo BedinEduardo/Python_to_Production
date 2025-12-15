@@ -80,3 +80,9 @@ def so_some_math()
 	sums = 1 +2 +3
 	print(f"Sum: {sum}")
 	return sum
+
+# a function to do some complex math 
+def do_complex_math(a, b, c):
+	result = (a ** 2 + b ** 2) ** 0.5 + c
+	print(f"Complex math result: {result}")
+	return result
